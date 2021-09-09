@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:background="@color/purple_200">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="118dp"
+            android:layout_height="127dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="159dp"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:id="@+id/roomtype"
+            android:layout_width="228dp"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="71dp"
+            android:layout_toEndOf="@+id/img"
+            android:layout_toRightOf="@+id/img"
+            android:text="Roomname"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/roomnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="330dp"
+            android:layout_toEndOf="@+id/img"
+            android:layout_toRightOf="@+id/img"
+            android:text=""
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="122dp"
+            android:text="Views"
+            android:textSize="10dp"
+            android:textStyle="bold|italic" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

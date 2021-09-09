@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+   >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/roomtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="type"
+        android:height="50dp"
+        android:gravity="center"
+      />
+
+    <TextView
+        android:id="@+id/roomnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Roonum"
+        android:height="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:hint="" />
+
+</LinearLayout>
